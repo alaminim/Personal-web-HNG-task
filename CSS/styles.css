@@ -1,0 +1,120 @@
+html {
+    scroll-behavior: smooth;
+}
+.hamburger-menu {
+    display: none;
+}
+.main-content {
+    margin-top: 2.5rem;
+    background-image: url(./images/background-hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 34, 0.9);
+    color: #fff;
+    font-family: "Noto Sans", sans-serif;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    
+
+}
+.greet {
+    display: flex;
+    align-items: center;
+}
+.goals {
+    font-family:fantasy;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    margin-left: auto;
+    margin-right: 0.1rem;
+    box-shadow: rgb(14, 0, 0) 2px 0px 2px 2px;
+
+}
+ul {
+    display: flex;
+    gap: 3rem;
+}
+ .menu {
+    list-style-type:  none;
+    
+}
+a {
+    color: rgb(202, 202, 202);
+}
+.menu a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+a:hover {
+    background-color: black;
+    color: #fff;
+    padding: 0.2rem;
+}
+.vision {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.tech-goals {
+    display: block;
+    list-style-type: square;
+    line-height: 2;
+}
+
+article {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+article h1 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.5;
+}
+.social {
+    display: flex;
+    align-items: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    gap: 10px;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(14, 0, 0);
+    color: #fff;
+}
+.follow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+.greadient-bg {
+height: auto;
+width: 100%;
+}
+h5 a  {
+    text-decoration: none;
+}
+footer div img p a {
+    text-decoration: none;
+}
+

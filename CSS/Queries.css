@@ -1,0 +1,42 @@
+@media screen and (max-width: 560px) {
+    main {
+        width: 100%;
+        background-image: url(./images/background-hero.png);
+        background-size: contain;
+    }
+    nav {
+        height: 50px;
+    }
+    .menu {
+        display: none;
+    }
+    .greetings {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        padding: 0.3rem;
+    }
+    .profile-pic {
+        width: 100%;
+        height: auto;
+    }
+    .coding {
+    width: 100%;
+    }
+    .desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .title {
+        text-align: center;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+}
